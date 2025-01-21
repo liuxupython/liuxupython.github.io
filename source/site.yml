@@ -1,5 +1,5 @@
 site:
-  title: 刘旭的Python教程
+  title: 刘旭Python
   description: 跟着旭哥学Python.
   keywords: 刘旭 liuxu python
   theme: default
@@ -30,7 +30,7 @@ site:
   integration:
   footer: |
           <div>
-            &copy;<a href="/">刘旭的Python教程</a> 
+            由GitSite提供支持。版权所有&copy;<a href="/">刘旭Python</a> 
             - <a href="https://space.bilibili.com/433467371" target="_blank">B站</a>
             - <a href="https://github.com/liuxupython" target="_blank">GitHub</a>
           </div>
