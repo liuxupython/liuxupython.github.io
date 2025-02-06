@@ -1,3 +1,1 @@
-# hello
-
-this is a python 
+# Python简介
