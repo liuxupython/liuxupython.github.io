@@ -42,6 +42,8 @@ jobs:
       - name: Install GitSite
         run:
           npm install gitsite-cli -g
+          npm install -D tailwindcss@3 postcss autoprefixer
+          npx tailwindcss init -p
       - name: Build with GitSite
         run:
           # set output dir to '_site' for pages jobs:
