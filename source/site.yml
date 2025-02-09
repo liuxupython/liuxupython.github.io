@@ -12,6 +12,8 @@ site:
   navigation:
     - title: Pyhton教程
       uri: /books/python/index.html
+    - title: 外出看看
+      uri: /blogs/travel/index.html
   contact:
     name: 刘旭
   books:
