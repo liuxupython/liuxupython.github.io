@@ -1,7 +1,7 @@
 site:
-  title: 刘旭Python
+  title: 刘旭
   description: 跟着旭哥学Python.
-  keywords: 刘旭 liuxu python
+  keywords: 刘旭 liuxu python docker
   theme: default
   language: zh-CN
   # set the /<rootPath> pathname under which your site is served
@@ -12,6 +12,8 @@ site:
   navigation:
     - title: Pyhton教程
       uri: /books/python/index.html
+    - title: Docker教程
+      uri: /books/docker/index.html
     - title: 外出看看
       uri: /blogs/travel/index.html
   contact:
@@ -32,7 +34,7 @@ site:
   integration:
   footer: |
           <div>
-            由GitSite提供支持。版权所有&copy;<a href="/">刘旭Python</a> 
+            Powered by GitSite. &copy;<a href="/">刘旭Python</a> 
             - <a href="https://space.bilibili.com/433467371" target="_blank">B站</a>
             - <a href="https://github.com/liuxupython" target="_blank">GitHub</a>
           </div>
