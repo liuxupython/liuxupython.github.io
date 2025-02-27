@@ -57,9 +57,9 @@ Apt-get 换源
 
 >参考：
 >
->https://mirrors.tencent.com/help/debian.html
+>腾讯云镜像站：https://mirrors.tencent.com/
 >
->https://mirrors.tuna.tsinghua.edu.cn/help/debian/
+>清华大学镜像站：https://mirrors.tuna.tsinghua.edu.cn/help/debian/
 
 - 因为是在腾讯云服务器上，直接使用内网地址（http://mirrors.tencentyun.com）
 - 修改 `/etc/apt/sources.list.d/debian.sources` 为如下内容
