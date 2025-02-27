@@ -63,7 +63,7 @@ docker build -t liuxupython/hello-docker:v1 -f Dockerfile .
 docker commit <容器id> liuxupython/my-nginx:v1
 ```
 
-- 等价于 `docker image commit`
+- 等价于 `docker container commit`
 - commit 时可以通过指定容器id 或者容器名来创建镜像
 
 <br>
