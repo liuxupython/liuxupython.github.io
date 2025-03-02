@@ -64,12 +64,6 @@ docker run -v /opt/data:/data [image_name]
 
 
 
-**查看宿主机上挂载卷地址**
-
-~~~bash
-docker run -it --privileged --pid=host debian nsenter -t 1 -m -u -n -i sh
-~~~
-
 <br>
 
 
