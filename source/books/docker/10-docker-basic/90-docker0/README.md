@@ -11,8 +11,8 @@ docker安装并启动服务后，会在宿主机中添加一个虚拟网卡， `
 启动两个 nginx 容器
 
 ~~~bash
-docker -d --name nginx1 nginx
-docker -d --name nginx2 nginx
+docker run -d --name nginx1 nginx
+docker run -d --name nginx2 nginx
 
 docker ps
 CONTAINER ID   IMAGE                          COMMAND                   CREATED          STATUS                    PORTS                  NAMES
