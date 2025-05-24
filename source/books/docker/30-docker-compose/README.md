@@ -579,7 +579,7 @@ services:
 上面的例子是 `depends_on` 的简单配置版本，它还可以和 `condition`、`restart` 等配合使用。
 
 ~~~yaml
-ervices:
+services:
   web:
     build: .
     depends_on:
@@ -810,9 +810,10 @@ services:
 compose.yaml
 
 ~~~yaml
+include:
   - path:
-      - infra.yaml
-      - my_override.yaml
+    - infra.yaml
+    - my_override.yaml
 
 services:
   web:
@@ -821,5 +822,4 @@ services:
       - redis
       - mysql
 ~~~
-
 
